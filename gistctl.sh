@@ -10,7 +10,7 @@ OUTPUT=""
 
 usage()
 {
-  echo "Usage: $0 -c [API Command] -u [User name] -S [since yyyy-mm-dd:hh:mm:ssZ]"
+  echo "Usage: $0 -c show [ -u User name ] [ -S since yyyy-mm-dd:hh:mm:ssZ ] [ -t TOKEN TO USE ]"
   echo "-c: show (REQUIRED, currently only show is available, fetch and list coming soon)"
   echo "-u: gist userid (optional, default is all public)"
   echo "-S: Since format yyyy-mm-dd:hh:mm:ssZ (optioanl)"
